@@ -1,0 +1,25 @@
+//promo
+
+.section-wrap-big {
+  .section-left {
+    width: calc(100% - 235px);
+  }
+  .section-right {
+    width: 235px;
+  }
+}
+
+
+.promo-item {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #f3f3f3;
+  .row {
+    padding: 30px 0;
+  }
+}
+
+.promo-item__title {
+  font-weight: bold;
+}
+
+//end promo

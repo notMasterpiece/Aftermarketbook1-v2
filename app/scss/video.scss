@@ -1,0 +1,54 @@
+//video start
+
+
+.video-wrap {
+  margin-top: 20px;
+}
+
+.video-top {
+  margin-bottom: 50px;
+}
+
+.flex-end-row {
+  display: flex;
+  align-items: flex-end;
+}
+
+.video-top__right-text {
+  padding-left: 0;
+  font-size: 14px;
+}
+
+.video-top_img {
+  img {
+    width: 100%;
+  }
+}
+
+.video-item {
+  margin: 0 12px 50px 0;
+  display: inline-block;
+  width: 210px;
+  vertical-align: top;
+  &__text a {
+    color: #565656;
+    font-size: 14px;
+  }
+  &__like {
+    height: 30px;
+    overflow: hidden;
+    padding: 3px;
+    .count {
+      color: #bababa;
+      float: right;
+      .video-top_like,
+      .left-comment__count {
+        display: inline-block;
+        margin-left: 10px;
+      }
+    }
+  }
+}
+
+
+//video end
