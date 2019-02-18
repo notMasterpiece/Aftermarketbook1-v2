@@ -336,6 +336,9 @@
     width: 100%;
     margin-right: 0;
   }
+  .header-right .lang {
+    font-size: 12px;
+  }
 }
 
 /**/
@@ -343,7 +346,15 @@
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 359px) {
-
+  .header-center {
+    left: 60px;
+  }
+  .toggle-mnu {
+    margin-left: -15px;
+  }
+  .header-right {
+    margin-right: -15px;
+  }
 }
 
 /**/

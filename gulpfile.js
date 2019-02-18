@@ -12,6 +12,7 @@ var gulp          = require('gulp'),
 		notify        = require("gulp-notify"),
         sourcemaps    = require('gulp-sourcemaps'),
 		rsync         = require('gulp-rsync');
+		ghPages       = require('gulp-gh-pages');
 
 gulp.task('browser-sync', function() {
 	browserSync({
@@ -75,3 +76,13 @@ gulp.task('watch', ['styles', 'js', 'browser-sync'], function() {
 });
 
 gulp.task('default', ['watch']);
+
+
+
+
+
+gulp.task('deploy', function() {
+	return gulp.src('./app/**/*')
+		.pipe(ghPages());
+});
+

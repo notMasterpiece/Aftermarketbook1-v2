@@ -190,6 +190,20 @@ header {
 
 .header-right {
   float: right;
+  .logout,
+  .login,
+  .lang {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .lang {
+    color: #000;
+    margin-right: 10px;
+    text-decoration: underline;
+    &:hover {
+      text-decoration: none;
+    }
+  }
 }
 .login {
   padding: 22px 0;
